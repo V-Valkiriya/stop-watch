@@ -1,7 +1,7 @@
 import  data  from '../data.js';
 
 function watchTime() {
-    data.milliseconds += 2;
+   data.milliseconds += 10;
     if (data.milliseconds === 1000) {
         data.milliseconds = 0;
         data.seconds++;

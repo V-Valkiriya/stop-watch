@@ -15,7 +15,7 @@ function startHandler() {
 
         timeElement.innerHTML = '';
         timeElement.append(timeComponent);
-    }, 2);
+    }, 10);
 }
 
 export default startHandler;
